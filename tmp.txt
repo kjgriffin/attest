@@ -1,0 +1,1 @@
+avrdude -p t85 -c usbtiny -e -U flash:w:blink.hex -U lfuse:w:0x82:m -v
